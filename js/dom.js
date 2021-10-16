@@ -25,21 +25,14 @@ $('.experiencias').append(
                     $('.contenedorGeneral').append(
                         `
                         <div class="contenedorVino">
-                        <div>
-                            <img class="imagenProducto"src="${experiencia[0].img}" alt="${experiencia[0].name}">
-                        </div> 
-                        <div>
-                            <h4 class="tituloProducto">${experiencia[0].name}</h4>
-                            <p class="precioProducto">${experiencia[0].precio}</p>
-                        </div>
-                        <div class="contenedorBotones">
-                            <button class="btnCarrito">
-                                Agregar al carrito
-                            </button>
-                            <button class="btnDetalle">
-                            Ver más
-                            </button>
-                        </div>
+                            <div>
+                                <img class="imagenProducto"src="${experiencia[0].img}" alt="${experiencia[0].name}">
+                            </div> 
+                            <div>
+                                <h4 class="tituloProducto">${experiencia[0].name}</h4>
+                                <p class="precioProducto">${experiencia[0].precio}</p>
+                                <p class="descripcionProducto">${experiencia[0].descripcion}</p>
+                            </div>
                         </div>
 
                         `
@@ -63,23 +56,16 @@ $('.experiencias').append(
                     $('.contenedorGeneral').append(
                         `
                         <div class="contenedorVino">
-                        <div>
-                            <img class="imagenProducto"src="${experiencia[1].img}" alt="${experiencia[1].name}">
-                        </div> 
-                        <div>
-                            <h4 class="tituloProducto">${experiencia[1].name}</h4>
-                            <p class="precioProducto">${experiencia[1].precio}</p>
+                            <div>
+                                <img class="imagenProducto"src="${experiencia[1].img}" alt="${experiencia[1].name}">
+                            </div> 
+                            <div>
+                                <h4 class="tituloProducto">${experiencia[1].name}</h4>
+                                <p class="precioProducto">${experiencia[1].precio}</p>
+                                <p class="descripcionProducto">${experiencia[1].descripcion}</p>
+                            </div>
                         </div>
-                        <div class="contenedorBotones">
-                            <button class="btnCarrito">
-                                Agregar al carrito
-                            </button>
-                            <button class="btnDetalle">
-                            Ver más
-                            </button>
-                        </div>
-                        </div>
-    
+
                         `
                         )
      
@@ -100,24 +86,19 @@ $('.experiencias').append(
     
                     $('.contenedorGeneral').append(
                         `
+                        
                         <div class="contenedorVino">
-                        <div>
-                            <img class="imagenProducto"src="${experiencia[2].img}" alt="${experiencia[2].name}">
-                        </div> 
-                        <div>
-                            <h4 class="tituloProducto">${experiencia[2].name}</h4>
-                            <p class="precioProducto">${experiencia[2].precio}</p>
+                            <div>
+                                <img class="imagenProducto"src="${experiencia[2].img}" alt="${experiencia[2].name}">
+                            </div> 
+                            <div>
+                                <h4 class="tituloProducto">${experiencia[2].name}</h4>
+                                <p class="precioProducto">${experiencia[2].precio}</p>
+                                <p class="descripcionProducto">${experiencia[2].descripcion}</p>
+                            </div>
                         </div>
-                        <div class="contenedorBotones">
-                            <button class="btnCarrito">
-                                Agregar al carrito
-                            </button>
-                            <button class="btnDetalle">
-                            Ver más
-                            </button>
-                        </div>
-                        </div>
-    
+
+                        
                         `
                         )
         
@@ -125,6 +106,5 @@ $('.experiencias').append(
                 }
         
             }
-            )
-        }
+            )}
         );

@@ -2,23 +2,25 @@
     {   "id": 1, 
         "name": "Experiencia Malbec",
         "uva": "Malbec",
-        "precio": 4500,
+        "precio": "$4500",
         "vinos": ["Cordero con piel de lobo","El joven equilibrista","Animal - Orgánico","Pardillos", "Sapo de otro pozo","Il Forte"],
-        "img": "../media/wine.png"
+        "img": "../media/1.jpg",
+        "descripcion":"Los vinos Malbec son cálidos, suaves y con taninos dulces muy agradables. Con aromas frutados durante su juventud, luego evoluciona con aromas a canela y toques de vainilla; son vinos con gran cuerpo, estructura y profundos. La ciruela es una de las características del Malbec"
     },
     {   "id": 2, 
-        "name": "Experiencia Malbec",
-        "uva": "Malbec",
-        "precio": 4500,
+        "name": "Experiencia Cabernet Sauvignion",
+        "uva": "Cabernet Sauvignion",
+        "precio": "$5200",
         "vinos": ["Cordero con piel de lobo","El joven equilibrista","Animal - Orgánico","Pardillos", "Sapo de otro pozo","Il Forte"],
-        "img": "../media/wine.png"
+        "img": "../media/2.jpg",
+        "descripcion":"Vista: Es un tinto de color oscuro y profundo, generalmente opaco, con un tono azulado o púrpura. Nariz: Se caracterizan por su fruta negra fresca y crujiente, con aromas a pimienta, ajíes, pimentón, cerezas y grafito. Boca: Los taninos son más bien filosos, de esos que aportan vivacidad y estructura sin molestar." 
     },
     {   "id": 3, 
         "name": "Experiencia Cabernet Franc",
-        "uva": "Malbec",
-        "precio": 4500,
+        "uva": "Cabernet Franc",
+        "precio": "$6100",
         "vinos": ["Cordero con piel de lobo","El joven equilibrista","Animal - Orgánico","Pardillos", "Sapo de otro pozo","Il Forte"],
-        "img": "../media/wine.png"
+        "img": "../media/3.jpg",
+        "descripcion":"Es un vino de color rojo profundo con tonos violáceos. Se destaca por su gran intensidad aromática con notas de frutos negros y rojos, como cassis y grosellas maduras, muy bien ensambladas con especias dulces, pimiento rojo y notas características de la crianza en roble como vainilla y ahumados"
     }
-
     ]
