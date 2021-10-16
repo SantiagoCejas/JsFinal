@@ -1,4 +1,4 @@
-const URL_ARCHIVO_JSON = '../db/db.json';
+const urlJson = '../db/db.json';
 
 $('.experiencias').append(
      `
@@ -14,47 +14,117 @@ $('.experiencias').append(
 `
 );
 
-$('#btn1').click( () => {
+    $('#btn1').click( () => {
 
-    $.get(URL_ARCHIVO_JSON, (response, status) => {
+        $.get(urlJson, (response, status) => {
 
-        if (status === "success") {
-            
-            let experiencia =  response;
-
-            for (let i = 0; i < 6; i++) // los primeros 6 elementos
-                {
-                $('.contenedorGeneral').append(
-                    `
-                    <div class="contenedorVino">
-                    <div>
-                        <img class="imagenProducto"src="${experiencia.img}" alt="${experiencia.name}">
-                    </div> 
-                    <div>
-                        <h4 class="tituloProducto">${experiencia.nombre}</h4>
-                        <p class="precioProducto">${experiencia.precio}</p>
-                    </div>
-                    <div class="contenedorBotones">
-                        <button class="btnCarrito">
-                            Agregar al carrito
-                        </button>
-                        <button class="btnDetalle">
-                        Ver más
-                        </button>
-                    </div>
-                    </div>
-
-                    `
-                    )
+            if (status === "success") {
                 
+                let experiencia =  response;
 
+                    $('.contenedorGeneral').append(
+                        `
+                        <div class="contenedorVino">
+                        <div>
+                            <img class="imagenProducto"src="${experiencia[1].img}" alt="${experiencia[1].nombre}">
+                        </div> 
+                        <div>
+                            <h4 class="tituloProducto">${experiencia[1].nombre}</h4>
+                            <p class="precioProducto">${experiencia[1].precio}</p>
+                        </div>
+                        <div class="contenedorBotones">
+                            <button class="btnCarrito">
+                                Agregar al carrito
+                            </button>
+                            <button class="btnDetalle">
+                            Ver más
+                            </button>
+                        </div>
+                        </div>
 
+                        `
+                        )
+    
+        
                 }
-    
+        
             }
-    
+            )
         }
-        )
-    }
-    )
+        );
+    $('#btn2').click( () => {
+
+        $.get(urlJson, (response, status) => {
     
+            if (status === "success") {
+                
+                let experiencia =  response;
+    
+                    $('.contenedorGeneral').append(
+                        `
+                        <div class="contenedorVino">
+                        <div>
+                            <img class="imagenProducto"src="${experiencia[2].img}" alt="${experiencia[2].nombre}">
+                        </div> 
+                        <div>
+                            <h4 class="tituloProducto">${experiencia[2].nombre}</h4>
+                            <p class="precioProducto">${experiencia[2].precio}</p>
+                        </div>
+                        <div class="contenedorBotones">
+                            <button class="btnCarrito">
+                                Agregar al carrito
+                            </button>
+                            <button class="btnDetalle">
+                            Ver más
+                            </button>
+                        </div>
+                        </div>
+    
+                        `
+                        )
+     
+        
+                }
+        
+            }
+            )
+        }
+        );
+    $('#btn3').click( () => {
+
+        $.get(urlJson, (response, status) => {
+    
+            if (status === "success") {
+                
+                let experiencia =  response;
+    
+                    $('.contenedorGeneral').append(
+                        `
+                        <div class="contenedorVino">
+                        <div>
+                            <img class="imagenProducto"src="${experiencia[3].img}" alt="${experiencia[3].nombre}">
+                        </div> 
+                        <div>
+                            <h4 class="tituloProducto">${experiencia[3].nombre}</h4>
+                            <p class="precioProducto">${experiencia[3].precio}</p>
+                        </div>
+                        <div class="contenedorBotones">
+                            <button class="btnCarrito">
+                                Agregar al carrito
+                            </button>
+                            <button class="btnDetalle">
+                            Ver más
+                            </button>
+                        </div>
+                        </div>
+    
+                        `
+                        )
+        
+        
+                }
+        
+            }
+            )
+        }
+        );
