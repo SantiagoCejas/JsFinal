@@ -245,3 +245,20 @@ a:hover {
   justify-content: space-between;
   align-items: center;
 }
+.contenedorCarrito{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-content: space-between;
+  align-content: center;
+  background-image: url(../media/sirviendo.jpg);
+  min-height: 50vh;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  padding: 2rem 2rem 2rem 2rem;
+}
+.formularioCompra{
+  align-self: center;
+  padding: 2rem 2rem 2rem 2rem;
+  line-height: 2rem;
+}
