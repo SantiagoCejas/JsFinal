@@ -26,11 +26,11 @@ $('.experiencias').append(
                         `
                         <div class="contenedorVino">
                         <div>
-                            <img class="imagenProducto"src="${experiencia[1].img}" alt="${experiencia[1].nombre}">
+                            <img class="imagenProducto"src="${experiencia[0].img}" alt="${experiencia[0].name}">
                         </div> 
                         <div>
-                            <h4 class="tituloProducto">${experiencia[1].nombre}</h4>
-                            <p class="precioProducto">${experiencia[1].precio}</p>
+                            <h4 class="tituloProducto">${experiencia[0].name}</h4>
+                            <p class="precioProducto">${experiencia[0].precio}</p>
                         </div>
                         <div class="contenedorBotones">
                             <button class="btnCarrito">
@@ -64,11 +64,11 @@ $('.experiencias').append(
                         `
                         <div class="contenedorVino">
                         <div>
-                            <img class="imagenProducto"src="${experiencia[2].img}" alt="${experiencia[2].nombre}">
+                            <img class="imagenProducto"src="${experiencia[1].img}" alt="${experiencia[1].name}">
                         </div> 
                         <div>
-                            <h4 class="tituloProducto">${experiencia[2].nombre}</h4>
-                            <p class="precioProducto">${experiencia[2].precio}</p>
+                            <h4 class="tituloProducto">${experiencia[1].name}</h4>
+                            <p class="precioProducto">${experiencia[1].precio}</p>
                         </div>
                         <div class="contenedorBotones">
                             <button class="btnCarrito">
@@ -102,11 +102,11 @@ $('.experiencias').append(
                         `
                         <div class="contenedorVino">
                         <div>
-                            <img class="imagenProducto"src="${experiencia[3].img}" alt="${experiencia[3].nombre}">
+                            <img class="imagenProducto"src="${experiencia[2].img}" alt="${experiencia[2].name}">
                         </div> 
                         <div>
-                            <h4 class="tituloProducto">${experiencia[3].nombre}</h4>
-                            <p class="precioProducto">${experiencia[3].precio}</p>
+                            <h4 class="tituloProducto">${experiencia[2].name}</h4>
+                            <p class="precioProducto">${experiencia[2].precio}</p>
                         </div>
                         <div class="contenedorBotones">
                             <button class="btnCarrito">

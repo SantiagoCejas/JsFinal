@@ -1,20 +1,20 @@
 [
     {   "id": 1, 
-        "nombre": "Experiencia Malbec",
+        "name": "Experiencia Malbec",
         "uva": "Malbec",
         "precio": 4500,
         "vinos": ["Cordero con piel de lobo","El joven equilibrista","Animal - Orgánico","Pardillos", "Sapo de otro pozo","Il Forte"],
         "img": "../media/wine.png"
     },
     {   "id": 2, 
-        "nombre": "Experiencia Malbec",
+        "name": "Experiencia Malbec",
         "uva": "Malbec",
         "precio": 4500,
         "vinos": ["Cordero con piel de lobo","El joven equilibrista","Animal - Orgánico","Pardillos", "Sapo de otro pozo","Il Forte"],
         "img": "../media/wine.png"
     },
     {   "id": 3, 
-        "nombre": "Experiencia Cabernet Franc",
+        "name": "Experiencia Cabernet Franc",
         "uva": "Malbec",
         "precio": 4500,
         "vinos": ["Cordero con piel de lobo","El joven equilibrista","Animal - Orgánico","Pardillos", "Sapo de otro pozo","Il Forte"],
