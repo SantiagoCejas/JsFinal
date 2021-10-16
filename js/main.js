@@ -26,9 +26,9 @@ $('#btnComprar').click( () => {
                 <label for="pedido" class="">¿Qué Experiencia vas a comprar?</label>
                 <select id="pedido" class="">
                     <option selected>Elegir</option>
-                    <option>${experiencia[0].nombre}</option>
-                    <option>${experiencia[1].nombre}</option>
-                    <option>${experiencia[2].nombre}</option>
+                    <option>${experiencia[0].name}</option>
+                    <option>${experiencia[1].name}</option>
+                    <option>${experiencia[2].name}</option>
                 </select>
                 </div>
                 <div class="">

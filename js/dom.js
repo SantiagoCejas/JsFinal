@@ -97,9 +97,9 @@ $('.experiencias').append(
                                 <p class="descripcionProducto">${experiencia[2].descripcion}</p>
                             </div>
                         </div>
-
-                        
+                  
                         `
+                        
                         )
         
         
